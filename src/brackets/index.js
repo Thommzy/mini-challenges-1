@@ -25,7 +25,7 @@ function isValid(str) {
       }
     }
   }
-  if (emptyArray.length !== 0) {
+  if (emptyArray.length != 0) {
     return "invalid";
   }
   return "valid";
